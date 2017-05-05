@@ -30,7 +30,7 @@ def get_bucket_list(account):
 
 
 def main():
-    if len(sys.argv) == 3:
+    if len(sys.argv) == 2:
         print(sys.argv[1])
         get_bucket_list(sys.argv[1])
 
